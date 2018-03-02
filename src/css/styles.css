@@ -6027,25 +6027,7 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #ddd !important; } }
 
 body {
-  background: #F8F8F8;
-  /*
-  background-image: linear-gradient(90deg, 
-        #413C4D, #413C4D 6.66%, 
-        #3F3654 6.66%, #3F3654 13.32%,
-        #333860 13.32%, #333860 19.98%,
-        #243F61 19.98%, #243F61 26.64%,
-        #1F4A6B 26.64%, #1F4A6B 33.33%,
-        #1A4D6B 33.33%, #1A4D6B 39.96%,
-        #1A5066 39.96%, #1A5066 46.62%,
-        #1A4A5A 46.62%, #1A4A5A 53.28%,
-        #264E51 53.28%, #264E51 59.94%,
-        #305150 59.94%, #305150 66.60%,
-        #3B554D 66.60%, #3B554D 73.26%,
-        #43574D 73.26%, #43574D 79.92%,
-        #435145 79.92%, #435145 86.58%,
-        #434A44 86.65%, #434A44 93.24%,
-        #433F49 93.24%, #433F49 100%
-  );*/ }
+  background: #F8F8F8; }
 
 #page-header {
   padding-bottom: 10px;
@@ -6058,7 +6040,9 @@ body {
   padding: 3em;
   background: #fff;
   border-radius: 5px;
-  box-shadow: 0 1px 1px 0 rgba(10, 16, 34, 0.2); }
+  box-shadow: 0 1px 1px 0 rgba(10, 16, 34, 0.2);
+  border-top: 10px solid #FFEB3B;
+  border-bottom: 10px solid #FFEB3B; }
 
 #main-nav {
   background: rgba(0, 0, 0, 0.7); }
