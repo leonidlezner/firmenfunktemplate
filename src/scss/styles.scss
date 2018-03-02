@@ -1,0 +1,76 @@
+// Overrides
+
+$theme-colors: (
+  "primary": #000
+);
+
+// Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+
+div {
+  //outline: 1px dotted red;
+}
+
+body {
+  background: #F8F8F8;
+
+  /*
+  background-image: linear-gradient(90deg, 
+        #413C4D, #413C4D 6.66%, 
+        #3F3654 6.66%, #3F3654 13.32%,
+        #333860 13.32%, #333860 19.98%,
+        #243F61 19.98%, #243F61 26.64%,
+        #1F4A6B 26.64%, #1F4A6B 33.33%,
+        #1A4D6B 33.33%, #1A4D6B 39.96%,
+        #1A5066 39.96%, #1A5066 46.62%,
+        #1A4A5A 46.62%, #1A4A5A 53.28%,
+        #264E51 53.28%, #264E51 59.94%,
+        #305150 59.94%, #305150 66.60%,
+        #3B554D 66.60%, #3B554D 73.26%,
+        #43574D 73.26%, #43574D 79.92%,
+        #435145 79.92%, #435145 86.58%,
+        #434A44 86.65%, #434A44 93.24%,
+        #433F49 93.24%, #433F49 100%
+  );*/
+  
+}
+
+#page-header {
+  padding-bottom: 10px;
+  box-shadow: 0 1px 1px 0 rgba(10, 16, 34, .2);
+
+  background-image: repeating-linear-gradient(90deg, 
+        #F44336 0.00%, #F44336 6.66%,
+        #E91E63 6.66%, #E91E63 13.32%,
+        #9C27B0 13.32%, #9C27B0 19.98%,
+        #3F51B5 19.98%, #3F51B5 26.64%,
+        #2196F3 26.64%, #2196F3 33.33%,
+        #03A9F4 33.33%, #03A9F4 39.96%,
+        #00BCD4 39.96%, #00BCD4 46.62%,
+        #009688 46.62%, #009688 53.28%,
+        #4CAF50 53.28%, #4CAF50 59.94%,
+        #8BC34A 59.94%, #8BC34A 66.60%,
+        #CDDC39 66.60%, #CDDC39 73.26%,
+        #FFEB3B 73.26%, #FFEB3B 79.92%,
+        #FFC107 79.92%, #FFC107 86.58%,
+        #FF9800 86.65%, #FF9800 93.24%,
+        #FF5722 93.24%, #FF5722 100%
+  );
+}
+
+#main-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 3em;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px 0 rgba(10, 16, 34, .2);
+}
+
+#main-nav {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.contributor .name {
+  font-size: 1rem;
+}
